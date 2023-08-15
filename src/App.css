@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(119deg,rgb(81, 2, 184),gold );
+}
+button{
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: rgb(247, 5, 5);
+  color: rgb(252, 252, 252);
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 40px;
+}
+input{
+  max-width: 500px;
+  flex: 5;
+  border: 2px;
+  outline: 2px;
+  background: transparent;
+  padding: 20px;
+  font-weight: 14px;
+  color: rgb(254, 254, 254);
+}
+.form{
+  width: 100%;
+  max-width: 200px;
+  background-color: rgba(0, 0, 0, 0.408);
+  margin: auto auto auto;
+  padding: 40ox 30px 70px;
+  border-radius: 10px;
+}
+.container{
+  width: 100%;
+  max-width: 200px;
+  background-color: rgba(0, 9, 1, 0.271);
+  margin: 100px auto 20px;
+  padding: 40ox 30px 70px;
+  border-radius: 10px;
+}
+.labelforbutton{
+  color: rgb(252, 252, 252);
+  font-weight: 145;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
